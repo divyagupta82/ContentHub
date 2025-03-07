@@ -2,7 +2,8 @@
 import HomePage from './Components/HomePage'
 import ExplorePage from './Components/ExplorePage'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Login from './Components/Login'
+import Form from './Components/Form'
+
 
 function App() {
 
@@ -16,10 +17,14 @@ function App() {
           
         <Route path="/" element={<HomePage />} />
           <Route path="/home" element={<ExplorePage />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/login" element={<Form />} />
+          <Route path="/signup" element={<Form />} />
 
         </Routes>
       </Router>
+
+      
+  
     </>
   )
 }

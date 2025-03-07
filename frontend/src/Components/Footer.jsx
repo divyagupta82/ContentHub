@@ -2,7 +2,7 @@ export default function Footer() {
     return (
         <footer>
             {/* Top Banner */}
-            <div className="bg-[#d9964b] text-center py-6">
+            <div className="bg-[white] text-center py-6 ">
                 <h2 className="text-2xl font-bold">Stay informed with the latest updates and news.</h2>
                 <div className="flex justify-center items-center mt-2">
                     <p className="text-md text-gray-1000">CEO, Industry Insights</p>
@@ -10,7 +10,7 @@ export default function Footer() {
             </div>
 
          
-            <div className="container mx-auto px-10 py-10 grid grid-cols-6 gap-6 text-gray-800">
+            <div className="container mx-auto px-10 py-10 grid grid-cols-6 gap-6 text-gray-800 bg-[#f5f5f5]">
                 
                
                 <div className="col-span-2">
