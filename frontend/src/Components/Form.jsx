@@ -9,7 +9,8 @@ const Form = () => {
     <Header />
 
     <div className="flex items-center justify-center h-screen">
-    <div className="absolute inset-0 bg-gradient-to-r from-[#9a5f2f] to-[#cc7e99] z-[-1]">
+    <div className="absolute inset-0 bg-gradient-to-r from-[#1a252f] to-[#02050a]
+  z-[-1]">
     <Sparkles className="w-full h-full" />
   </div>
     
@@ -19,9 +20,9 @@ const Form = () => {
           <input type="email" className="rounded-full border border-gray-300 outline-none p-3" placeholder="Email" />
           <input type="password" className="rounded-full border border-gray-300 outline-none p-3" placeholder="Password" />
           <p className="text-right text-gray-500 underline text-xs font-bold cursor-pointer hover:text-black">Forgot Password?</p>
-          <button className="py-3 px-4 font-sans rounded-full border-none outline-none bg-[#d9964b] text-black text-lg  cursor-pointer shadow-md active:shadow-none">Log in</button>
+          <button className="py-3 px-4 font-sans rounded-full border-none outline-none  bg-[#4a90e2] text-black text-lg  cursor-pointer shadow-md active:shadow-none">Log in</button>
         </form>
-        <p className="text-sm text-gray-900">Don't have an account? <span className="text-[#d9964b] text-base font-bold underline cursor-pointer">Sign up</span></p>
+        <p className="text-sm text-gray-900">Don't have an account? <span className="text-[#4a90e2] text-base font-bold underline cursor-pointer">Sign up</span></p>
         <div className="w-full flex flex-col justify-start mt-5 gap-4">
           <div className="flex items-center justify-center gap-2 p-3 border border-gray-500 rounded-full shadow-md cursor-pointer">
             <svg stroke="currentColor" fill="currentColor" strokeWidth={0} version="1.1" x="0px" y="0px" className="w-5 h-5" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">

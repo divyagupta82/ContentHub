@@ -15,13 +15,13 @@ const NavbarExplore = ({ onSearch, user, onLogout }) => {
 
   return (
     <nav className="flex justify-between items-center p-4 bg-white shadow-md mb-10">
-      <h1 className="text-4xl font-bold">ContentHub: Top Headlines</h1>
+      <h1 className="text-5xl font-serif font-bold">Top Headlines</h1>
 
       <div className="relative">
         <input
           type="text"
           placeholder="Search for news..."
-          className="border p-2 rounded-md w-64"
+          className="border px-2 p-1.5 rounded-md w-75"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onKeyPress={(e) => e.key === "Enter" && handleSearchSubmit()}
@@ -36,12 +36,12 @@ const NavbarExplore = ({ onSearch, user, onLogout }) => {
 
       <div>
         {user ? (
-          <button className="px-4 py-2 bg-red-500 text-white rounded" onClick={onLogout}>
+          <button className="px-6 py-2  bg-[#4a90e2] font-bold text-l text-black rounded" onClick={onLogout}>
             Logout
           </button>
         ) : (
-          <button className="px-4 py-2 bg-yellow-500 text-black rounded" onClick={navigateToLogin}>
-            Log in
+          <button className="px-6 py-2 bg-[#4a90e2] font-bold text-l text-black  rounded hover:bg-gradient-to-r from-[#4D90FE] to-[#357ae8]" onClick={navigateToLogin}>
+            Sign in
           </button>
         )}
       </div>
